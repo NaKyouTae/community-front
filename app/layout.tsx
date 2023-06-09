@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import Header from "@/app/header";
 import Navigator from "@/app/components/navigator/Navigator";
 import Contents from "@/app/components/contents";
+import Ads from "@/app/components/ads/Ads";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +22,8 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header />
         <Navigator />
+        <Ads />
+        {/* eslint-disable-next-line react/no-children-prop */}
         <Contents children={children} />
       </body>
     </html>

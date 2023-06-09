@@ -1,4 +1,4 @@
-import Providers from "@/app/redux/providers";
+import Providers from "@/app/redux/Providers";
 
 function Contents({ children }) {
     return (

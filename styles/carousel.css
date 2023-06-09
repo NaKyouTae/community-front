@@ -1,0 +1,15 @@
+.embla {
+    max-height: 250px;
+}
+
+.embla__container {
+    display: flex;
+    flex-direction: column;
+    max-height: 250px;
+    height: 250px;
+}
+
+.embla__slide {
+    flex: 0 0 100%; /* Slide covers 80% of the viewport */
+}
+
