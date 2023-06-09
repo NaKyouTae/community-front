@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import {EmblaCarousel} from "@/app/utils/EmblaCarousel";
+import {EmblaCarousel} from "@/app/common/templates/EmblaCarousel";
 
 interface AdsType {
     id: string
