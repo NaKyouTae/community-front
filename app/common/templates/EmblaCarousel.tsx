@@ -11,7 +11,7 @@ type PropType = {
 
 const autoplayOptions = {
     delay: 4000,
-    rootNode: (emblaRoot) => emblaRoot.parentElement,
+    rootNode: (emblaRoot: any) => emblaRoot.parentElement,
 }
 
 export const EmblaCarousel = (props: PropType) => {

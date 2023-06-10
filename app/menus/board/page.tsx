@@ -6,7 +6,7 @@ function Board() {
         for (let i = 1; i <= 150; i++) {
             const randomPost = {
                 id: i.toString(),
-                no: i.toString(),
+                no: i,
                 writer: 'tester',
                 title: 'test',
                 createdAt: '2023-06-10',

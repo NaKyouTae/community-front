@@ -3,7 +3,7 @@
 import React, {useState} from 'react';
 import Paging from "@/app/common/templates/tables/Paging";
 
-function Cards(props: { cards: CardModel[] }) {
+function Cards(props: { data: CardModel[] }) {
     const { data } = props
 
     const cardsPerPage = 10; // Number of posts to display per page

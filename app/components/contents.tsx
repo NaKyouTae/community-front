@@ -1,6 +1,6 @@
 import Providers from "@/app/redux/Providers";
 
-function Contents({ children }) {
+function Contents({ children }: any) {
     return (
         <div className={"contents"}>
             <Providers>{children}</Providers>

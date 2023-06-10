@@ -1,16 +1,6 @@
 function Paging(props: { currentPage: number, totalPages: number, setCurrentPage: any}) {
     const { currentPage, totalPages, setCurrentPage } = props
 
-    // Go to the previous page
-    const goToPreviousPage = () => {
-        setCurrentPage((prevPage) => Math.max(prevPage - 1, 1));
-    };
-
-    // Go to the next page
-    const goToNextPage = () => {
-        setCurrentPage((prevPage) => Math.min(prevPage + 1, totalPages));
-    };
-
     // Render the page number buttons
     const renderPageNumbers = () => {
         const pageNumbers = Array.from({ length: totalPages }, (_, index) => index + 1);
