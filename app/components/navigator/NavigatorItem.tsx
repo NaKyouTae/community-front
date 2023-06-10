@@ -10,8 +10,7 @@ function NavigatorItem() {
     const menus = [
         { path: '/menus/board', label: 'table'},
         { path: '/menus/card', label: 'card'},
-        { path: '/menu2', label: 'menu2'},
-        { path: '/menu3', label: 'menu3'},
+        { path: '/menus/list', label: 'list'},
     ]
 
     const menus1 = fetchMenus()
