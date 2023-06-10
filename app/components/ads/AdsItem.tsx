@@ -24,21 +24,21 @@ async function AdsItem() {
                     key={0}
                     fill={true}
                     src={`/images/ads_3.png`}
-                    className=" object-cover rounded-md"
-
+                    className="object-cover rounded-md"
+                    alt="Image"
                 ></Image>,
                 <Image
                     key={1}
                     src={`/images/ads_2.png`}
                     fill={true}
-                    className=" object-cover rounded-md"
+                    className="object-cover rounded-md"
                     alt="Image"
                 ></Image>,
                 <Image
                     key={2}
                     src={`/images/ads_1.png`}
                     fill={true}
-                    className=" object-cover rounded-md"
+                    className="object-cover rounded-md"
                     alt="Image"
                 ></Image>,
             ]}

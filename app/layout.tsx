@@ -4,6 +4,7 @@ import Header from "@/app/header";
 import Navigator from "@/app/components/navigator/Navigator";
 import Contents from "@/app/components/contents";
 import Ads from "@/app/components/ads/Ads";
+import Footer from "@/app/Footer";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +26,7 @@ export default function RootLayout({
         <Ads />
         {/* eslint-disable-next-line react/no-children-prop */}
         <Contents children={children} />
+        <Footer />
       </body>
     </html>
   )

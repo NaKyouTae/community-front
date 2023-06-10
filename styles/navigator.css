@@ -2,6 +2,9 @@
     width: 100%;
     padding: 20px 15%;
     background-color: #5c5cf5;
+    position: sticky;
+    top: 50px;
+    z-index: 999;
 }
 
 .navigator ul {

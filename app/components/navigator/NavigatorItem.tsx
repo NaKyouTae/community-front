@@ -8,8 +8,8 @@ const fetchMenus = async () => {
 
 function NavigatorItem() {
     const menus = [
-        { path: '/board', label: 'board'},
-        { path: '/menu1', label: 'menu1'},
+        { path: '/menus/board', label: 'table'},
+        { path: '/menus/card', label: 'card'},
         { path: '/menu2', label: 'menu2'},
         { path: '/menu3', label: 'menu3'},
     ]
