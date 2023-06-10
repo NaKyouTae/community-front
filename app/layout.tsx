@@ -20,6 +20,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <haed>
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="" />
+        {/*<meta property="og:image" content="/images/opengraph.png" />*/}
+        <meta property="og:title" content="커뮤니트 사이트 샘플" />
+        <meta property="og:description" content="프로토타입 사이트" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7943148960429460" crossOrigin="anonymous"></script>
+      </haed>
       <body className={inter.className}>
         <Header />
         <Navigator />
